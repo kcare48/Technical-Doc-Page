@@ -1,0 +1,289 @@
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<nav id="navbar">
+  <header>HTML Basics</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#What_is_an_HTML_element"
+        >What is an HTML element</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#HTML_Attributes">HTML Attributes</a>
+    </li>
+    <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+    <li><a class="nav-link" href="#Headings">Headings</a></li>
+    <li>
+      <a class="nav-link" href="#HTML_Formatting">HTML Formatting</a>
+    </li>
+    <li><a class="nav-link" href="#HTML_Comments">HTML Comments</a></li>
+    <li><a class="nav-link" href="#HTML_Colors">HTML Colors</a></li>
+    <li><a class="nav-link" href="#HTML_Lists">HTML Lists</a></li>
+    <li><a class="nav-link" href="#HTML_Block_Elements">HTML Block Elements</a></li>
+    <li>
+      <a class="nav-link" href="#HTML_Inline_Elements">HTML Inline Elements</a>
+    </li>
+    <li><a class="nav-link" href="#Iframe">Iframe</a></li>
+    <li>
+      <a class="nav-link" href="#Summary">Summary</a>
+    </li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+        HTML is the standard markup language for creating Web pages. HTML stands for Hyper Text Markup Language
+HTML is the standard markup language for creating Web pages.
+
+      </p>
+
+      <p>
+        HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content. HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+        example:
+      </p>
+      <ul>
+        <li>
+          The "p" element defines a paragraph.
+        </li>
+        <li>
+          The "a" tag defines a hyperlink.
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="What_is_an_HTML_element">
+    <header>What is an HTML element</header>
+    <article>
+      <p>An HTML element is defined by a start tag, some content, and an end tag. The HTML element is everything from the start tag to the end tag. </p>
+
+      <ul>
+        <li>
+          Elements can be nested (contain other elements).
+        </li>
+        <li>It's important to not skip the end tags.</li>
+        <li>
+          HTML elements with no content are considered empty elements such as the "br" tag. 
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="HTML_Attributes">
+    <header> HTML Attributes</header>
+    <article>
+      <p>
+        
+       HTML attributes provide additional    information about HTML elements.
+      </p>
+
+      <p>
+        All HTML elements can have attributes. Attributes provide additional information about elements. Attributes are always specified in the start tag. Attributes usually come in name/value pairs like: name="value".
+      </p>
+      <p>
+         Common attributes include: src, width and height, alt, style, href, lang, title, and many more. 
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Hello_world">
+    <header>Hello world</header>
+    <article>
+      To get started with writing HTML, open a text editor and write your
+      first "Hello world" HTML code:
+      <pre><code>
+        <img src="https://actualwizard.com/wp-content/uploads/2020/04/sublime-text-html-editor-example.png" alt="hello world code example">
+      </code>
+      </pre>
+    </article>
+  </section>
+  <section class="main-section" id="Headings">
+    <header>Headings</header>
+    <p>
+      HTML headings are titles or subtitles that you want to display on a webpage.
+    </p>
+    <p>
+      HTML headings are defined with the "h1" to "h6" tags. An "h1" tag defines the most important heading, while the "h6" tag defines the least important heading.
+    </p>
+    <p>
+      Search engines use the headings to index the structure and content of your web pages. Users often skim a page by its headings. It is important to use headings to show the document structure.
+    </p>
+  </section>
+  <section class="main-section" id="HTML_Formatting">
+    <header>HTML Formatting</header>
+    <article>
+      Formatting elements were designed to display special types of text.
+      <p>
+        With the "b" tag, you can create bold text.   For example, <code>
+        <img src="https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/code-explanation-b-tag-in-html.png" width=700 alt="b tag example">
+          </code> 
+        You can also use the "strong" tag to create bold text.
+      </p>
+      <p>
+        By simply using "strong", the same effect is achieved. For example, <code>
+           <img src="https://i.ytimg.com/vi/ymZFOCfxkvg/maxresdefault.jpg" width=700 alt="strong tag example">
+        </code> 
+        The HTML "i" element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
+      </p>
+      <p>
+      For example,
+        <code>  <img src="https://static.javatpoint.com/htmlpages/images/html-i-tag.png" width=700 alt="i tag example">
+          
+        </code> You can also use the "em" tag to achieve the same effect.      </p>
+    </article>
+  </section>
+  <section class="main-section" id="HTML_Comments">
+    <header>HTML Comments</header>
+    <article>
+      <p>
+        HTML comments are not displayed in the browser, but they can help document your HTML source code.
+      </p>
+
+      <p>
+        You can add comments to your HTML source by using the following syntax:
+      </p>
+      <code><img src="https://i.ytimg.com/vi/AS_DY-B4LK4/hqdefault.jpg" width=700 alt="comment tag example"></code>
+      <p>
+        When using the comment tag, it will not appear on the rendered webpage, so users will not be able to see it. 
+      </p>
+
+      <code>
+        <img src="https://www.copahost.com/blog/wp-content/uploads/2019/07/html-comments.jpg" width=700 alt="comment tag graphic">
+          
+        </code>
+    </article>
+  </section>
+  <section class="main-section" id="HTML_Colors">
+    <header>HTML Colors</header>
+    <article>
+      <p>
+        HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.
+      </p>
+
+      <p>
+        
+        In HTML, a color can be specified by using a color name.You can set the background color for HTML elements. You can set the color of text. You can set the color of borders, etc.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="HTML_Lists">
+    <header>HTML Lists</header>
+    <article>
+      <p>
+        HTML lists allow web developers to group a set of related items in lists. You can use an ordered or unordered list. 
+      </p>
+
+      <code><img src="https://i.ytimg.com/vi/Aid7zvwga64/maxresdefault.jpg" width=700 alt="ordered list tag graphic"> </code>
+      <p>
+       An ordered list starts with the "ol" tag. Each list item starts with the "li" tag. The list items will be marked with numbers by default.
+      </p>
+
+      <p>
+        An unordered list starts with the "ul" tag. Each list item starts with the "li" tag. 
+      </p>
+
+      <p>
+       The list items will be marked with bullets (small black circles) by default.
+        For example:
+      </p>
+
+      <code>
+        <img src="https://i.ytimg.com/vi/aZ-dp3CO0Mc/maxresdefault.jpg" width=700 alt="unordered list tag graphic">
+          
+        </code>
+      Here is how a list may view in the web browser:
+      <code>
+        <img src="https://static.javatpoint.com/htmlpages/images/html-unordered-list-bulleted-list.png" width=700 alt="list tag graphic">
+        
+      </code>
+    </article>
+  </section>
+  <section class="main-section" id="HTML_Block_Elements">
+    <header>HTML Block Elements</header>
+    <article>
+      <p>Every HTML element has a default display value, depending on what type of element it is. </p>
+      <ul>
+        <li>
+          <p>There are two display values:</p>
+          <ul>
+            <li>Block</li>
+            <li>Inline</li>
+            
+      </ul>
+          
+          We will be covering Block elements in this section. A block-level element always starts on a new line.
+
+      A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+
+       A block level element has a top and a bottom margin, whereas an inline element does not.
+    </article>
+  </section>
+  
+    <section class="main-section" id="HTML_Inline_Elements">
+    <header>HTML Inline Elements</header>
+    <article>
+     An inline element does not start on a new line.An inline element only takes up as much width as necessary. An inline tag looks as follows:
+
+      <code>
+        <img src="https://i.stack.imgur.com/wDNuG.png" width=700 alt=inline element example">
+        
+      </code>
+     There's a plethora of inline element tags, one in particular is the span tag above. 
+      <p>
+        Another inline element you may use is the "div" tag. For example: 
+      </p>
+      <code>
+        <img src="https://www.webdesign.org/img_articles/14296/6.jpg" width=700 alt="div tag example">
+      </code>
+      
+      
+      One more inline element is the "a" tag. For example: 
+      <code><img src="https://i.ytimg.com/vi/ZFqdBcchJ8A/maxresdefault.jpg" width=700 alt="a tag example"> </code> 
+      
+    </article>
+  </section>
+    
+  <section class="main-section" id="Iframe">
+    <header>Iframe</header>
+    <article>
+      An HTML iframe is used to display a web page within a web page. For example: 
+
+      <code>
+        <img src="https://i.ytimg.com/vi/A3yBDVwODUc/hqdefault.jpg" width=700 alt="div tag example">
+          
+        </code> 
+      The HTML "iframe" tag specifies an inline frame.
+
+An inline frame is used to embed another document within the current HTML document.
+
+      <p>
+        It is a good practice to always include a title attribute for the "iframe". This is used by screen readers to read out what the content of the iframe is.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Summary">
+    <header>Summary</header>
+    <article>
+      HTML is the universal markup language for the Web. HTML lets you format text, add graphics, create links, input forms, frames and tables, etc., and save it all in a text file that any browser can read and display.
+
+     
+    </article>
+  </section>
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a
+  href="https://www.w3schools.com/"
+            target="_blank"
+            >W3Schools</a
+
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
+   
